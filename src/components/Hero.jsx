@@ -22,6 +22,15 @@ const Hero = () => {
         <FaLinkedinIn className='size-8 text-white mt-2'/> 
         </a>
     </div>
+    <div className=' absolute'>
+    <div className='w-8 h-8 rounded-full bg-orange-500 animate-bounce bottom-2'>
+    </div>
+    <div className='w-8 h-8 rounded-full bg-orange-500 mt-2'>
+    </div>
+    <div className='w-8 h-8 rounded-full bg-orange-500 mt-2'>
+    </div>
+    </div>
+    
     <div className='z-20'>  
       <h1 className='text-white text-4xl'>I'm <span className='text-orange-500 text-6xl'>Supun Oshadha</span></h1>
       <h1 className='text-white text-4xl mt-2'>Full stack developer</h1>

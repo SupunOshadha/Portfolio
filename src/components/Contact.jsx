@@ -5,7 +5,8 @@ const Contact = () => {
     <section className=' bg-zinc-700  text-white -mt-10'>
     <div id='Contact'>
       <h1 className='text-center text-4xl pt-14'>Contact Me</h1>
-        <div className='grid-cols-1'>
+      <hr className='border-orange-400'></hr>
+        <div className='flex-1'>
 
         </div>
 
