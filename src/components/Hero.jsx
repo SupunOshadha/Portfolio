@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className='w-full h-auto bg-zinc-800 p-4 box-border drop-shadow-2xl  siz-48 md:size-full flow-root'>  
     <div className='flex  md:flex-row basis-3 justify-evenly items-center flex-col gap-10 p-4 relative mt-20'>
-    <div className='self-end absolute md:relative'>
+    <div className='self-end absolute md:relative z-10'>
           <FaEllipsisVertical className='size-8 text-orange-500 '/>
           <FaEllipsisVertical className='size-8 text-orange-500 '/>
           <FaEllipsisVertical className='size-8 text-orange-500 mb-6'/>
@@ -29,7 +29,7 @@ const Hero = () => {
       <button className='text-orange-500 border-2 rounded-lg border-orange-500 p-2 text-xl mt-8'>Contact Me</button>
       </div>
       <div className=''>
-      <img src={Person} className='grayscale bg-gradient-to-r from-zinc-800 to-orange-500  max-h-96 rounded w-full min-h-60 min-w-80 md:max-h-screen'/> 
+      <img src={Person} className='grayscale   max-h-96 rounded w-full min-h-60 min-w-80 md:max-h-screen'/> 
       </div>
       </div>
     </section>
