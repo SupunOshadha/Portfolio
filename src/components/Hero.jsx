@@ -29,7 +29,7 @@ const Hero = () => {
       <button className='text-orange-500 border-2 rounded-lg border-orange-500 p-2 text-xl mt-8'>Contact Me</button>
       </div>
       <div className=''>
-      <img src={Person} className='bg-gradient-to-r from-zinc-800 to-orange-500  max-h-96 rounded w-full min-h-60 min-w-80 md:max-h-screen'/> 
+      <img src={Person} className='grayscale bg-gradient-to-r from-zinc-800 to-orange-500  max-h-96 rounded w-full min-h-60 min-w-80 md:max-h-screen'/> 
       </div>
       </div>
     </section>
