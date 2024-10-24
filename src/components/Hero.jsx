@@ -29,7 +29,7 @@ const Hero = () => {
       <button className='text-orange-500 border-2 rounded-lg border-orange-500 p-2 text-xl mt-8'>Contact Me</button>
       </div>
       <div className='relative '>
-      <img src={Person} className='grayscale  max-h-96 rounded w-full min-h-96 min-w-72 md:max-h-screen z-10 opacity-60  mix-blend-lighten  hover:filter-none hover:animate-spin
+      <img src={Person} className='grayscale  max-h-96 rounded w-full min-h-96 min-w-72 md:max-h-screen z-10 opacity-60  mix-blend-lighten  hover:filter-none hover:animate-bounce
       '/> 
       </div>
       </div>
