@@ -11,7 +11,7 @@ const NavBar = () => {
             < a href='#Portfolio'>Portfolio</a>
             < a href='#Contact'>Contact</a>
         </nav>
-        <hr className='border-2 border-orange-500 w-1/2'></hr>
+        <hr className='border-2 border-orange-500 w-3/5'></hr>
       </section>
     </>
   )
