@@ -4,8 +4,7 @@ import React from 'react'
 const NavBar = () => {
   return (
     <>
-      <section className=' w-full h-auto bg-zinc-800 text-white text-2xl fixed
-      z-10'>
+      <section className=' w-full h-auto bg-zinc-800 text-white text-xl md:text-2xl fixed z-10'>
         <nav className='flex flex-row justify-center align-middle p-8 gap-8 '>
             < a href='#'>About</a>
             < a href='#Portfolio'>Portfolio</a>
