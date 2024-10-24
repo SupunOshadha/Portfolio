@@ -1,0 +1,67 @@
+{
+   "skills":[
+    {
+        "icon": "/assets/images/html.png",
+        "name": "HTML $ CSS"
+    },
+    {
+         "icon": "/assets/images/js.png",
+        "name": "Javascript"
+    },   {
+        "icon": "/assets/images/tailwind.png",
+        "name": "Tailwind CSS"
+    },
+    {
+         "icon": "/assets/images/react.png",
+        "name": "React"
+    },
+    {
+         "icon": "/assets/images/java.png",
+        "name": "Java"
+    },
+    {
+        "icon": "/assets/images/node.png",
+        "name": "Nodejs"
+    },
+    {
+        "icon": "/assets/images/ex.png",
+        "name": "Espress"
+    },
+    {
+         "icon": "/assets/images/spring.png",
+        "name": ""
+    },
+    {
+        "icon": "/assets/images/mongodb.png",
+        "name": "MongoDB"
+    },
+    {
+         "icon": "/assets/images/mysql.png",
+        "name": ""
+    },
+    {
+        "icon": "/assets/images/postgre.png",
+        "name": ""
+    },
+    {
+         "icon": "/assets/images/postman.png",
+        "name": "Postman"
+    },
+    {
+        "icon": "/assets/images/jenkins.png",
+        "name": "Jenkins"
+    },
+    {
+        "icon": "/assets/images/docker.png",
+        "name": "Docker"
+    }
+    ,
+    {
+        "icon": "/assets/images/aws.png",
+        "name": ""
+    }
+   
+   
+   
+]
+}
