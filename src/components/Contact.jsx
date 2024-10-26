@@ -17,13 +17,13 @@ const Contact = () => {
         <h1 className='text-center text-xl md:text-4xl -mt-5'>Contact Me</h1>           
         <hr className='w-1/5 border-b-2 border-orange-400 md:border-b-4 md:w-2/5 float-right '></hr>
       </div>
-        <div className='grid grid-rows-3 grid-cols-1 text-lg text-center mix-blend-screen md:grid md:grid-rows-2 md:grid-cols-8 justify-center mt-10 gap-4  text-orange-300 md:text-xl'>
-          <div className='hover:bg-orange-500 hover:text-black  md:col-start-3 md:col-end-5 bg-zinc-800 rounded-md shadow-xl
+        <div className='grid grid-rows-3 grid-cols-1 text-lg text-center mix-blend-screen md:grid md:grid-rows-2 md:grid-cols-8 justify-center mt-10 gap-1 md:gap-4  text-orange-300 md:text-xl'>
+          <div className='p-2 hover:bg-orange-500 hover:text-black  md:col-start-3 md:col-end-5 bg-zinc-800 rounded-md shadow-xl
           outline-offset-4 flex flex-row justify-center items-center gap-2 '>
-          <a className='flex items-center gap-4' target='_blank' href=''><FaEnvelope />supunoshadha23@gmail.com</a></div>
-          <div className=' hover:bg-orange-500 hover:text-black md:col-end-7 md:col-span-2  bg-zinc-800 rounded-md shadow-xl outline-offset-4  items-center flex flex-row justify-center gap-2 col-span-3'>
-          <a className='flex items-center gap-4' ><FaPhone />(+94) 071-040-6742</a></div>
-          <div className='hover:bg-orange-500 hover:text-black md:col-start-4 md:col-end-6   bg-zinc-800 rounded-md shadow-xl outline-offset-4  items-center flex flex-row justify-center gap-2'><a className='flex items-center gap-4 '>
+          <a className='flex items-center gap-4' target='_blank' href='mailto:supunoshadha23@gmail.com'><FaEnvelope />Mail Me</a></div>
+          <div className='p-2 hover:bg-orange-500 hover:text-black md:col-end-7 md:col-span-2  bg-zinc-800 rounded-md shadow-xl outline-offset-4  items-center flex flex-row justify-center gap-2 col-span-3'>
+          <a href='tel:+94710406742' className='flex items-center gap-4' ><FaPhone />(+94) 71-040-6742</a></div>
+          <div className='p-2 hover:bg-orange-500 hover:text-black md:col-start-4 md:col-end-6   bg-zinc-800 rounded-md shadow-xl outline-offset-4  items-center flex flex-row justify-center gap-2'><a className='flex items-center gap-4 '>
           <FaMapMarker />Wattala, Sri lanka
           </a></div>
         </div>
