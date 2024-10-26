@@ -13,9 +13,9 @@ const Contact = () => {
     <section className=' bg-zinc-700  text-white '>
     <div id='Contact' className='min-w-fit h-1/2 '>
       <div className='flex flex-row justify-between'>        
-        <hr className='border-orange-400 border-b-2 w-2/5 md:border-orange-400 md:border-b-4'></hr>
+        <hr className='w-1/5 border-orange-400 border-b-2 md:w-2/5 md:border-orange-400 md:border-b-4'></hr>
         <h1 className='text-center text-xl md:text-4xl -mt-5'>Contact Me</h1>           
-        <hr className='border-b-2 border-orange-400 md:border-b-4 w-2/5 float-right '></hr>
+        <hr className='w-1/5 border-b-2 border-orange-400 md:border-b-4 md:w-2/5 float-right '></hr>
       </div>
         <div className='text-center mix-blend-screen md:grid grid-rows-2 md:grid-cols-8 justify-center mt-10 gap-4  text-orange-300   text-xl'>
           <div className='hover:bg-orange-500 hover:text-black col-start-1 col-end-4 md:col-start-3 md:col-end-5 bg-zinc-800 rounded-md shadow-xl
@@ -28,7 +28,7 @@ const Contact = () => {
           </a></div>
         </div>
         <div className=' flex flex-row justify-between mt-10'>              
-        <hr className='border-b-2 border-orange-400 md:border-b-4 w-2/5 '></hr>    
+        <hr className='w-1/5 border-b-2 border-orange-400 md:border-b-4 md:w-2/5 '></hr>    
         <div className=' flex flex-row gap-3 justify-center z-20 -mt-3 '>
         <a target='_blank' href='https://github.com/SupunOshadha'>
         <FaGithub className='size-5 md:size-8 text-white' />
@@ -43,12 +43,12 @@ const Contact = () => {
         <FaLinkedinIn className='size-5 md:size-8 text-white '/> 
         </a>
     </div> 
-        <hr className='border-b-2 border-orange-400 md:border-b-4 w-2/5 float-right '></hr>
+        <hr className='w-1/5 border-b-2 border-orange-400 md:border-b-4 md:w-2/5 float-right '></hr>
       </div>
       <section >
       
       <footer className='mt-4'>
-        <h5 className='text-lg md:text-xl text-center'>All right reserved @Nexnova_Supun </h5>
+        <h5 className='text-sm md:text-xl text-center'>All right reserved @Nexnova_Supun </h5>
       </footer>    
       </section>
     </div> 
