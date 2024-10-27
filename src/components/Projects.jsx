@@ -26,7 +26,7 @@ const Projects = () => {
               </div>  
               <div className='content-center w-2/3 md:w-1/2'>     
               <div id="he" className=' h-1/3 md:h-2/3 bg-slate-500 mix-blend-soft-light hover:mix-blend-normal relative'>
-              <a >
+              <a href="https://ceylon-travel-eight.vercel.app/" >
               <img src={images[currentImage]} className='bg-cover w-full h-full '/>
               <div className='bg-slate-500 w-full h-1/3 absolute bottom-0 opacity-75'>
               <h3 className='p-2 text-white  top-10 text-2xl md:text-4xl '>Ceylon Travel</h3><p className='p-4 text-xl md:text-2xl'>A web site which is promoting the sri lanka tourism industry. Using html,css,javascript, and vuejs </p>
