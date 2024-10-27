@@ -14,16 +14,16 @@ const Hero = () => {
           <FaEllipsisVertical className='size-8 text-orange-500 '/>
           <FaEllipsisVertical className='size-8 text-orange-500 mb-6'/>
           <a target='_blank' href='https://github.com/SupunOshadha'>
-        <FaGithub className='size-8 text-white' />
+        <FaGithub className='size-6 md:size-8 text-white' />
         </a>
         <a target='_blank' href='https://www.facebook.com/profile.php?id=100010352081055&mibextid=ZbWKwL'>
-        <FaFacebook className='size-8 text-white mt-2' />
+        <FaFacebook className='size-6 md:size-8 text-white mt-2' />
         </a>
         <a target='_blank' href=' https://wa.me/qr/37WLE5PID5WPA1'>
-        <FaWhatsapp className='size-8 text-white mt-2'/>
+        <FaWhatsapp className='size-6 md:size-8 text-white mt-2'/>
         </a>
         <a target='_blank' href='https://www.linkedin.com/in/supunoshadha?'>
-        <FaLinkedinIn className='size-8 text-white mt-2'/> 
+        <FaLinkedinIn className='size-6 md:size-8 text-white mt-2'/> 
         </a>
     </div>
     <div className='z-20'>  

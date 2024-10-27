@@ -5,12 +5,11 @@ import { FaMapMarker } from 'react-icons/fa'
 import { FaFacebook } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa'
 import { FaLinkedinIn } from 'react-icons/fa'
-import { FaEllipsisVertical } from 'react-icons/fa6'
 import { FaGithub } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <section className=' bg-zinc-700  text-white '>
+    <section className=' bg-zinc-700  text-white mt-10'>
     <div id='Contact' className='min-w-fit h-1/2 '>
       <div className='flex flex-row justify-between'>        
         <hr className='w-1/5 border-orange-400 border-b-2 md:w-2/5 md:border-orange-400 md:border-b-4'></hr>
