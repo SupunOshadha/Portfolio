@@ -8,8 +8,8 @@ import { FaGithub } from 'react-icons/fa'
 const Hero = () => {
   return (
     <section className='w-full h-auto bg-zinc-800 p-4 box-border drop-shadow-2xl  siz-48 md:size-full flow-root '>  
-    <div className='flex  md:flex-row basis-3 justify-evenly items-center flex-col gap-10 p-4 relative mt-20 h-svh'>
-    <div className='self-center absolute md:relative z-20'>
+    <div className='flex  md:flex-row basis-3 justify-evenly items-center flex-col gap-10 p-4 relative mt-22 h-svh'>
+    <div className='self-end md:bottom-20 absolute md:relative z-20'>
           <FaEllipsisVertical className='size-8 text-orange-500 '/>
           <FaEllipsisVertical className='size-8 text-orange-500 '/>
           <FaEllipsisVertical className='size-8 text-orange-500 mb-6'/>
@@ -26,7 +26,7 @@ const Hero = () => {
         <FaLinkedinIn className='size-6 md:size-8 text-white mt-2'/> 
         </a>
     </div>
-    <div className='z-20'>  
+    <div className='z-20 self-auto'>  
       <h1 className='text-white text-2xl md:text-4xl'>I'm <span className='text-orange-500 text-4xl md:text-6xl'>Supun Oshadha</span></h1>
       <h1 className='text-white text-2xl md:text-4xl mt-2'>Full stack developer</h1>
       <h1 className=' text-2xl text-orange-500 md:text-4xl mt-2'><span className='text-xl md:text-2xl text-white'>Founder of</span> NexNova</h1>
