@@ -8,7 +8,7 @@ import { FaGithub } from 'react-icons/fa'
 const Hero = () => {
   return (
     <section className='w-full h-auto bg-zinc-800 p-4 box-border drop-shadow-2xl  siz-48 md:size-full flow-root '>  
-    <div className='flex  md:flex-row basis-3 justify-evenly items-center flex-col gap-4 md:gap-10 p-4 relative mt-22 h-svh'>
+    <div className='flex  md:flex-row basis-3 justify-evenly items-center flex-col gap-2 md:gap-10 p-4 relative mt-22 h-svh mt-20'>
     <div className='self-end md:bottom-20 absolute md:relative z-20'>
           <FaEllipsisVertical className='size-8 text-orange-500 '/>
           <FaEllipsisVertical className='size-8 text-orange-500 '/>
@@ -44,4 +44,3 @@ const Hero = () => {
 export default Hero
 
 
-// grayscale  max-h-96 rounded w-full min-h-96 min-w-72 md:max-h-screen z-10 opacity-60  mix-blend-lighten  hover:filter-none hover:animate-bounce
