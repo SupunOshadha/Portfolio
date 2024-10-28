@@ -7,9 +7,9 @@ import { FaEllipsisVertical } from 'react-icons/fa6'
 import { FaGithub } from 'react-icons/fa'
 const Hero = () => {
   return (
-    <section className='w-full h-auto bg-zinc-800 p-4 box-border drop-shadow-2xl  siz-48 md:size-full flow-root'>  
-    <div className='flex  md:flex-row basis-3 justify-evenly items-center flex-col gap-10 p-4 relative mt-20'>
-    <div className='self-end absolute md:relative z-20'>
+    <section className='w-full h-auto bg-zinc-800 p-4 box-border drop-shadow-2xl  siz-48 md:size-full flow-root '>  
+    <div className='flex  md:flex-row basis-3 justify-evenly items-center flex-col gap-10 p-4 relative mt-20 h-svh'>
+    <div className='self-center absolute md:relative z-20'>
           <FaEllipsisVertical className='size-8 text-orange-500 '/>
           <FaEllipsisVertical className='size-8 text-orange-500 '/>
           <FaEllipsisVertical className='size-8 text-orange-500 mb-6'/>
@@ -32,8 +32,8 @@ const Hero = () => {
       <h1 className=' text-2xl text-orange-500 md:text-4xl mt-2'><span className='text-xl md:text-2xl text-white'>Founder of</span> NexNova</h1>
       <button onClick={()=> (href="#Contact")} className='text-orange-500 border-2 rounded-lg border-orange-500 p-2 tex-lg md:text-xl mt-8'>Contact Me</button>
       </div>
-      <div className='relative '>
-      <img src={Person} className='grayscale  max-h-96 rounded w-full min-h-96 min-w-72 md:max-h-screen z-10 opacity-60  mix-blend-lighten  hover:filter-none hover:animate-bounce
+      <div className='relative self-end'>
+      <img src={Person} className='grayscale  max-h-96 rounded w-full min-h-96 min-w-72 md:max-h-screen z-10 opacity-60  mix-blend-lighten  hover:filter-none hover:animate-bounce scale-x-[-1] 
       '/> 
       </div>
       </div>
