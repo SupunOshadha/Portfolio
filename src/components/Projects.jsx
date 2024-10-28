@@ -29,7 +29,7 @@ const Projects = () => {
               <a href="https://ceylon-travel-eight.vercel.app/" >
               <img src={images[currentImage]} className='bg-cover w-full h-full '/>
               <div className='bg-slate-500 w-full h-1/3 absolute bottom-0 opacity-75'>
-              <h3 className='p-2 text-white  text-xl md:text-4xl '>Ceylon Travel</h3><p className=' pt-2 md:p-4 text-md md:text-2xl'>A web site which is promoting the sri lanka tourism industry. <span className='hidden md:block'>Using html,css,javascript, and vuejs </span></p>
+              <h3 className='p-1 text-white  text-md md:text-4xl '>Ceylon Travel</h3><p className=' pt-1 md:p-4 text-sm md:text-2xl'>A web site which is promoting the sri lanka tourism industry. <span className='hidden md:block'>Using html,css,javascript, and vuejs </span></p>
               </div>            
               </a>   
               </div> 
