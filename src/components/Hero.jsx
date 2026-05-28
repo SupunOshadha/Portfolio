@@ -1,46 +1,112 @@
 import React from 'react'
 import Person from '../assets/images/user.png'
-import { FaFacebook } from 'react-icons/fa'
-import { FaWhatsapp } from 'react-icons/fa'
-import { FaLinkedinIn } from 'react-icons/fa'
+import { FaWhatsapp, FaLinkedinIn, FaGithub, FaAward, FaRegFilePdf } from 'react-icons/fa'
 import { FaEllipsisVertical } from 'react-icons/fa6'
-import { FaGithub } from 'react-icons/fa'
+import { HiOutlineDocumentCheck } from 'react-icons/hi2'
+
 const Hero = () => {
   return (
-    <section className='w-full h-auto bg-zinc-800 p-4 box-border drop-shadow-2xl  siz-48 md:size-full flow-root '>  
-    <div className='flex  md:flex-row basis-3 justify-evenly items-center flex-col gap-2 md:gap-10 p-4 relative mt-22 h-svh mt-20'>
-    <div className='self-end md:bottom-20 absolute md:relative z-20'>
-          <FaEllipsisVertical className='size-8 text-orange-500 '/>
-          <FaEllipsisVertical className='size-8 text-orange-500 '/>
-          <FaEllipsisVertical className='size-8 text-orange-500 mb-6'/>
-          <a target='_blank' href='https://github.com/SupunOshadha'>
-        <FaGithub className='size-6 md:size-8 text-white' />
-        </a>
-        <a target='_blank' href='https://www.facebook.com/profile.php?id=100010352081055&mibextid=ZbWKwL'>
-        <FaFacebook className='size-6 md:size-8 text-white mt-2' />
-        </a>
-        <a target='_blank' href=' https://wa.me/qr/37WLE5PID5WPA1'>
-        <FaWhatsapp className='size-6 md:size-8 text-white mt-2'/>
-        </a>
-        <a target='_blank' href='https://www.linkedin.com/in/supunoshadha?'>
-        <FaLinkedinIn className='size-6 md:size-8 text-white mt-2'/> 
-        </a>
-    </div>
-    <div className='z-20 '>  
-      <h1 className='text-white text-2xl md:text-4xl'>I'm <span className='text-orange-500 text-4xl md:text-6xl'>Supun Oshadha</span></h1>
-      <h1 className='text-white text-2xl md:text-4xl mt-2'>Full stack developer</h1>
-      <h1 className=' text-2xl text-orange-500 md:text-4xl mt-2'><span className='text-xl md:text-2xl text-white'>Founder of</span> NexNova</h1>
-      <button onClick={()=> (href="#Contact")} className='text-orange-500 border-2 rounded-lg border-orange-500 p-2 tex-lg md:text-xl mt-8'>Contact Me</button>
-      </div>
-      <div className='relative md:self-end'>
-      <img src={Person} className='grayscale  max-h-96 rounded w-full min-h-96 min-w-72 md:max-h-screen z-10 opacity-60  mix-blend-lighten  hover:filter-none hover:animate-bounce scale-x-[-1] m-auto
-      '/> 
-      </div>
-      </div>
+    <section className='w-full min-h-screen bg-zinc-950 text-white flex items-center justify-center pt-28 pb-16 px-4 sm:px-6 lg:px-8 box-border relative overflow-hidden selection:bg-orange-500 selection:text-white' id='Home'>  
+      
+      {/* Premium Ambient Background Lights */}
+      <div className='absolute top-1/4 left-1/4 w-72 h-72 bg-orange-500/10 rounded-full blur-[120px] animate-pulse pointer-events-none'></div>
+      <div className='absolute bottom-1/3 right-1/4 w-96 h-96 bg-zinc-800/40 rounded-full blur-[150px] pointer-events-none'></div>
+
+      <div className='max-w-7xl w-full mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-12 md:gap-8 relative z-10'>
+        
+        {/* Social Navigation Column */}
+        <div className='flex flex-row md:flex-col items-center gap-5 w-full md:w-auto justify-center md:justify-start border-t md:border-t-0 border-zinc-900 pt-6 md:pt-0'>
+          <div className='hidden md:flex flex-col items-center text-orange-500/30 select-none'>
+            <FaEllipsisVertical className='size-5 -mb-2' />
+            <FaEllipsisVertical className='size-5 -mb-2' />
+            <FaEllipsisVertical className='size-5 mb-3' />
+          </div>
+          
+          <a target='_blank' rel='noopener noreferrer' href='https://github.com/SupunOshadha' aria-label="GitHub Profile" className='p-3.5 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500/40 hover:text-orange-500 hover:-translate-y-1 transition-all duration-300 shadow-xl group'>
+            <FaGithub className='size-5 text-zinc-400 group-hover:text-orange-500 transition-colors' />
+          </a>
+          <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/supunoshadha' aria-label="LinkedIn Profile" className='p-3.5 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500/40 hover:text-orange-500 hover:-translate-y-1 transition-all duration-300 shadow-xl group'>
+            <FaLinkedinIn className='size-5 text-zinc-400 group-hover:text-orange-500 transition-colors'/> 
+          </a>
+          <a target='_blank' rel='noopener noreferrer' href='https://wa.me/qr/37WLE5PID5WPA1' aria-label="WhatsApp Contact" className='p-3.5 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-orange-500/40 hover:text-orange-500 hover:-translate-y-1 transition-all duration-300 shadow-xl group'>
+            <FaWhatsapp className='size-5 text-zinc-400 group-hover:text-orange-500 transition-colors'/>
+          </a>
+        </div>
+
+        {/* Text Content Block */}
+        <div className='flex-1 text-center md:text-left space-y-5 max-w-2xl'>  
+          <div className='inline-flex items-center gap-2 bg-gradient-to-r from-orange-500/10 to-transparent border border-orange-500/20 px-4 py-1.5 rounded-full shadow-inner'>
+            <FaAward className='text-orange-500 size-4 animate-bounce' />
+            <span className='text-orange-400 font-medium tracking-wide text-xs uppercase'>Industry Ready</span>
+          </div>
+          
+          <h1 className='text-zinc-100 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-none'>
+            I'm <span className='bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent block sm:inline'>Supun Oshadha</span>
+          </h1>
+          
+          <h2 className='text-zinc-300 text-xl sm:text-2xl font-semibold tracking-wide'>
+            Software Engineering Graduate Candidate
+          </h2>
+          
+          <p className='text-zinc-400 text-sm sm:text-base md:text-lg leading-relaxed max-w-xl mx-auto md:mx-0 text-justify md:text-left font-normal'>
+            Specializing in enterprise application layers using Java (Spring Boot) and PHP (Laravel) alongside responsive frontend frameworks. Proven track record in API integration testing and structural system automation workflows.
+          </p>
+          
+          {/* Action CTAs - Re-Engineered for Modern SE Standards */}
+          <div className='flex flex-col sm:flex-row justify-center md:justify-start gap-4 pt-4'>
+            <a href='#Contact' className='bg-gradient-to-r from-orange-500 to-amber-600 hover:from-orange-600 hover:to-amber-700 text-white font-medium px-8 py-3.5 rounded-xl shadow-lg shadow-orange-500/10 hover:shadow-orange-500/20 transform hover:-translate-y-0.5 transition-all duration-200 text-center text-sm md:text-base whitespace-nowrap'>
+              Contact Me
+            </a>
+
+            {/* RESUME DOWNLOAD BUTTON */}
+            <a 
+              target='_blank' 
+              rel='noopener noreferrer' 
+              href='/K.D.S.Oshadha_Resume.pdf' 
+              download="K.D.S.Oshadha_Resume.pdf"
+              className='flex items-center justify-center gap-2 text-zinc-100 bg-zinc-900 border border-zinc-800 font-medium rounded-xl px-7 py-3.5 hover:text-white hover:border-orange-500/40 hover:bg-zinc-900/40 transform hover:-translate-y-0.5 transition-all duration-200 text-center text-sm md:text-base group shadow-xl'
+            >
+              <FaRegFilePdf className='size-4 text-orange-500 group-hover:scale-110 transition-transform' />
+              Download CV
+            </a>
+
+            {/* OUSL INTERNSHIP VERIFY LINK BUTTON */}
+            <a 
+              target='_blank' 
+              rel='noopener noreferrer' 
+              href='https://drive.google.com/file/d/1sbAhV-o4UDpDwM8anfFYM2QXeKE07d6N/view' 
+              className='flex items-center justify-center gap-2 text-zinc-400 bg-transparent border border-zinc-900/60 font-medium rounded-xl px-5 py-3.5 hover:text-orange-400 hover:border-zinc-800 transform hover:-translate-y-0.5 transition-all duration-200 text-center text-xs md:text-sm group'
+            >
+              <HiOutlineDocumentCheck className='size-4 text-zinc-500 group-hover:text-orange-500 transition-colors' />
+              Verify Internship
+            </a>
+          </div>
+        </div>
+
+        {/* Profile Image Container - Flipped & Render Blended */}
+        <div className='w-56 sm:w-64 md:w-80 lg:w-96 flex justify-center items-center relative group'>
+          <div className='absolute inset-0 bg-gradient-to-tr from-orange-500/30 to-amber-500/10 blur-2xl rounded-full group-hover:from-orange-500/40 transition-all duration-500 pointer-events-none'></div>
+          
+          <div className='relative border border-zinc-800 p-3 bg-zinc-900/60 rounded-3xl backdrop-blur-sm shadow-2xl group-hover:border-orange-500/20 transition-colors duration-500 overflow-hidden'>
+            
+            <img 
+              src={Person} 
+              className='relative z-10 w-full h-auto object-cover opacity-85 rounded-2xl group-hover:opacity-100 transition-all duration-700 -scale-x-100 mix-blend-screen filter contrast-125 brightness-95' 
+              alt="Supun Oshadha"
+            /> 
+            
+            {/* Edge Shadow Overlay */}
+            <div className='absolute inset-0 z-20 rounded-2xl bg-gradient-to-t from-zinc-950/40 via-transparent to-transparent pointer-events-none'></div>
+
+            {/* Corner Tech Trims */}
+            <div className='absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-orange-500/40 rounded-tr-2xl group-hover:border-orange-500 pointer-events-none transition-colors'></div>
+            <div className='absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-orange-500/40 rounded-bl-2xl group-hover:border-orange-500 pointer-events-none transition-colors'></div>
+          </div>
+        </div>
+
+      </div> 
     </section>
   )
 }
 
 export default Hero
-
-
