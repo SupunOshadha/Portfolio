@@ -62,8 +62,8 @@ const Hero = () => {
             <a 
               target='_blank' 
               rel='noopener noreferrer' 
-              href='/K.D.S_Oshadha_Resume.pdf' 
-              download="K.D.S_Oshadha_Resume.pdf"
+              href='/K.D.S.Oshadha_Resume.pdf' 
+              download="K.D.S.Oshadha_Resume.pdf"
               className='flex items-center justify-center gap-2 text-zinc-100 bg-zinc-900 border border-zinc-800 font-medium rounded-xl px-7 py-3.5 hover:text-white hover:border-orange-500/40 hover:bg-zinc-900/40 transform hover:-translate-y-0.5 transition-all duration-200 text-center text-sm md:text-base group shadow-xl'
             >
               <FaRegFilePdf className='size-4 text-orange-500 group-hover:scale-110 transition-transform' />

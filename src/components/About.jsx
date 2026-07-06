@@ -29,13 +29,22 @@ const About = () => {
           {/* Main Biography Block */}
           <div className='lg:col-span-2 bg-zinc-900/40 border border-zinc-900 rounded-3xl p-6 sm:p-8 md:p-10 backdrop-blur-sm shadow-xl flex flex-col justify-between hover:border-zinc-800/80 transition-colors duration-300 relative group'>
             
-            <p className='text-zinc-400 text-sm sm:text-base md:text-lg leading-relaxed text-justify font-normal space-y-6'>
-              I am an industry-ready Software Engineering graduate from <strong className='text-zinc-200 font-medium'>The Open University of Sri Lanka</strong>, currently aligning my core technical expertise toward <strong className='text-orange-500 font-semibold'>Enterprise Networking and Systems Administration</strong>. 
-              <br /><br />
-              Through a rigorous 6-month internship within our university&apos;s IT Division, I gained critical hands-on experience in validating backend architectures, performing comprehensive <strong className='text-orange-500/90 font-medium'>Postman API testing workflows</strong>, and assisting in baseline IT system support diagnostics.
-              <br /><br />
-              Equipped with a solid logical reasoning mindset cultivated through building complex compiler modules and algorithmic frameworks, I am looking to transition directly into an infrastructure-focused ecosystem as an efficient, entry-level <strong className='text-zinc-200 font-medium'>NOC Trainee, Technical Specialist, or IT Support Analyst</strong>.
-            </p>
+           
+            <div className='text-zinc-400 text-sm sm:text-base md:text-lg leading-relaxed text-justify font-normal space-y-6'>
+              
+              <p>
+                I am an industry-ready Software Engineering graduate from <strong className='text-zinc-200 font-medium'>The Open University of Sri Lanka</strong>, currently aligning my core technical expertise toward <strong className='text-orange-500 font-semibold'>Enterprise Networking and Systems Administration</strong>.
+              </p>
+              
+              <p>
+                Through a rigorous 6-month internship within our university&apos;s IT Division, I gained critical hands-on experience in validating backend architectures, performing comprehensive <strong className='text-orange-500/90 font-medium'>Postman API testing workflows</strong>, and assisting in baseline IT system support diagnostics.
+              </p>
+              
+              <p>
+                Equipped with a solid logical reasoning mindset cultivated through building complex compiler modules and algorithmic frameworks, I am looking to transition directly into an infrastructure-focused ecosystem as an efficient, entry-level <strong className='text-zinc-200 font-medium'>NOC Trainee, Technical Specialist, or IT Support Analyst</strong>.
+              </p>
+
+            </div>
 
             {/* Corner Decorative Accent */}
             <div className='absolute bottom-0 right-0 w-12 h-12 border-b border-r border-zinc-800 rounded-br-3xl pointer-events-none group-hover:border-orange-500/30 transition-colors duration-500'></div>
