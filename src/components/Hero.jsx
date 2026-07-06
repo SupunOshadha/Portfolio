@@ -1,4 +1,4 @@
-import React from 'react' 
+import React from 'react'
 import Person from '../assets/images/user.png'
 import { FaWhatsapp, FaLinkedinIn, FaGithub, FaAward, FaRegFilePdf } from 'react-icons/fa'
 import { FaEllipsisVertical } from 'react-icons/fa6'
@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
           
           <h1 className='text-zinc-100 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-none'>
-            {"I'm"} <span className='bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent block sm:inline'>Supun Oshadha</span>
+            I&apos;m <span className='bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent block sm:inline'>Supun Oshadha</span>
           </h1>
           
           <h2 className='text-zinc-300 text-xl sm:text-2xl font-semibold tracking-wide'>

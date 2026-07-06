@@ -30,7 +30,7 @@ const About = () => {
           <div className='lg:col-span-2 bg-zinc-900/40 border border-zinc-900 rounded-3xl p-6 sm:p-8 md:p-10 backdrop-blur-sm shadow-xl flex flex-col justify-between hover:border-zinc-800/80 transition-colors duration-300 relative group'>
             
             <p className='text-zinc-400 text-sm sm:text-base md:text-lg leading-relaxed text-justify font-normal space-y-6'>
-              I am an industry-ready Software Engineering graduate from <strong className='text-zinc-200 font-medium'>The Open University of Sri Lanka</strong>, currently aligning my core technical expertise toward  <span className='text-orange-500 font-semibold'>Enterprise Networking and Systems Administration. </span>
+              I am an industry-ready Software Engineering graduate from <strong className='text-zinc-200 font-medium'>The Open University of Sri Lanka</strong>, currently aligning my core technical expertise toward <strong className='text-orange-500 font-semibold'>Enterprise Networking and Systems Administration</strong>. 
               <br /><br />
               Through a rigorous 6-month internship within our university&apos;s IT Division, I gained critical hands-on experience in validating backend architectures, performing comprehensive <strong className='text-orange-500/90 font-medium'>Postman API testing workflows</strong>, and assisting in baseline IT system support diagnostics.
               <br /><br />
