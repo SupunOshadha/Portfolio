@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import Person from '../assets/images/user.png'
 import { FaWhatsapp, FaLinkedinIn, FaGithub, FaAward, FaRegFilePdf } from 'react-icons/fa'
 import { FaEllipsisVertical } from 'react-icons/fa6'
@@ -41,18 +41,18 @@ const Hero = () => {
           </div>
           
           <h1 className='text-zinc-100 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-none'>
-            I'm <span className='bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent block sm:inline'>Supun Oshadha</span>
+            {"I'm"} <span className='bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent block sm:inline'>Supun Oshadha</span>
           </h1>
           
           <h2 className='text-zinc-300 text-xl sm:text-2xl font-semibold tracking-wide'>
-            Software Engineering Graduate Candidate
+            Software Engineering Graduate (Infrastructure & Operations)
           </h2>
           
           <p className='text-zinc-400 text-sm sm:text-base md:text-lg leading-relaxed max-w-xl mx-auto md:mx-0 text-justify md:text-left font-normal'>
-            Specializing in enterprise application layers using Java (Spring Boot) and PHP (Laravel) alongside responsive frontend frameworks. Proven track record in API integration testing and structural system automation workflows.
+            Expanding technical capabilities into Enterprise Networking and Systems Administration. Backed by hands-on university internship experience in technical support, baseline IT operations, and comprehensive API testing workflows.
           </p>
           
-          {/* Action CTAs - Re-Engineered for Modern SE Standards */}
+          {/* Action CTAs */}
           <div className='flex flex-col sm:flex-row justify-center md:justify-start gap-4 pt-4'>
             <a href='#Contact' className='bg-gradient-to-r from-orange-500 to-amber-600 hover:from-orange-600 hover:to-amber-700 text-white font-medium px-8 py-3.5 rounded-xl shadow-lg shadow-orange-500/10 hover:shadow-orange-500/20 transform hover:-translate-y-0.5 transition-all duration-200 text-center text-sm md:text-base whitespace-nowrap'>
               Contact Me
@@ -62,8 +62,8 @@ const Hero = () => {
             <a 
               target='_blank' 
               rel='noopener noreferrer' 
-              href='/K.D.S.Oshadha_Resume.pdf' 
-              download="K.D.S.Oshadha_Resume.pdf"
+              href='/K.D.S_Oshadha_Resume.pdf' 
+              download="K.D.S_Oshadha_Resume.pdf"
               className='flex items-center justify-center gap-2 text-zinc-100 bg-zinc-900 border border-zinc-800 font-medium rounded-xl px-7 py-3.5 hover:text-white hover:border-orange-500/40 hover:bg-zinc-900/40 transform hover:-translate-y-0.5 transition-all duration-200 text-center text-sm md:text-base group shadow-xl'
             >
               <FaRegFilePdf className='size-4 text-orange-500 group-hover:scale-110 transition-transform' />
@@ -83,7 +83,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Profile Image Container - Flipped & Render Blended */}
+        {/* Profile Image Container */}
         <div className='w-56 sm:w-64 md:w-80 lg:w-96 flex justify-center items-center relative group'>
           <div className='absolute inset-0 bg-gradient-to-tr from-orange-500/30 to-amber-500/10 blur-2xl rounded-full group-hover:from-orange-500/40 transition-all duration-500 pointer-events-none'></div>
           

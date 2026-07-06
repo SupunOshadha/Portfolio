@@ -47,14 +47,7 @@
     {
       "icon": "/assets/images/postman.png",
       "name": "Postman"
-    },
-    {
-      "icon": "/assets/images/docker.png",
-      "name": "Docker"
-    },
-    {
-      "icon": "/assets/images/aws.png",
-      "name": "AWS (Basic)"
     }
+    
   ]
 }
